@@ -18,6 +18,9 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./assets/icons/logos/fondo5.webp')",
         'second-pattern': "url('./assets/icons/logos/fondo.webp')",
+      },
+      screens:  {
+        'sm': '200px'
       }
     },
     plugins: [],
