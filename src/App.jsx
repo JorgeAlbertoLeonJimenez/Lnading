@@ -35,11 +35,11 @@ function App() {
          
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center mt-[300px]">
+      <section className="flex flex-col justify-center items-center mt-[100px]">
         <div className=" lg:flex  w-[350px] md:h-[812px] lg:h-[432px] md:w-[730px] lg:w-[1000px] ">
           <div className="w-[350px] h-[365px] md:w-[730px] md:h-[365px] lg:w-[325px] lg:h-[432px] mr-10 rounded-2xl bg-hero-pattern bg-center"></div>
           <div className=" flex flex-col justify-between">
-            <h3 className="text-[28px] text-center md:text-left md:text-[48px] font-bold">
+            <h3 className="text-[28px] text-center md:text-left my-[40px] md:text-[48px] font-bold">
               Delig user experience
             </h3>
             <Text2 icon={icon1} title="Premium Acces" description="Enable both crypto and fiat payments on your self-hosted checkout page."/>
@@ -49,11 +49,11 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center mt-[300px]">
+      <section className="flex flex-col justify-center items-center mt-[100px]">
         <div className=" lg:flex  w-[350px] md:h-[812px] lg:h-[432px] md:w-[730px] lg:w-[1000px] flex-row-reverse">
           <div className="w-[350px] h-[365px] md:w-[730px] md:h-[365px] lg:w-[325px] lg:h-[432px] mr-10 rounded-2xl bg-second-pattern bg-center"></div>
           <div className=" flex flex-col justify-between">
-            <h3 className="text-[28px] text-center md:text-left md:text-[48px] font-bold">
+            <h3 className="text-[28px] text-center md:text-left my-[40px] md:text-[48px] font-bold">
               Delig user experience
             </h3>
             <Text2 icon={icon1} title="Premium Acces" description="Enable both crypto and fiat payments on your self-hosted checkout page."/>
@@ -65,7 +65,7 @@ function App() {
       </section>
       <section  className="flex flex-col justify-center items-center">
         <Titl />
-        <div className="flex flex-col flex-wrap gap-3  md:h-[449px]">
+        <div className="flex flex-col flex-wrap gap-3  md:h-[449px]" id="price">
           <Princing  type="Regular" price="9" men="Access All Products" men2="Access Future Products" men3="Access to VIP Products" men4="Acces Basic Data"/>
           <Princing  type="Regular" price="99" men="Access All Products" men2="Access Future Products" men3="Access to VIP Products" men4="Acces Basic Data"/>
           <Princing  type="Regular" price="999" men="Access All Products" men2="Access Future Products" men3="Access to VIP Products" men4="Acces Basic Data"/>
@@ -79,7 +79,7 @@ function App() {
         <CardsNews inv="hidden lg:flex"/>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

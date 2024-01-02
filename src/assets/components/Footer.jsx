@@ -5,7 +5,7 @@ import BtnPrimary from "./BtnPrimary";
 
 export default function Footer() {
   return (
-    <footer className="p-[50px] bg-neg text-white  flex flex-col items-center">
+    <footer className="p-[50px] bg-neg text-white  flex flex-col items-center" id="contac">
       <div className="pt-10 pr-10  pb-10 pl-14  mb-10 flex justify-center text-center">
         <div className="flex gap-5 flex-col  items-center">
           <p>MUIA</p>

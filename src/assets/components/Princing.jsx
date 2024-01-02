@@ -26,7 +26,7 @@ export default function Princing({type , price , men , men2 ,men3 , men4}) {
                 </li>
 
             </ul>
-            <BtnPrimary inf="Browse Proudcs" sty="sm:text-black sm:bg-white px-[30px]" />
+            <BtnPrimary inf="Browse Proudcs" sty="text-black bg-white px-[30px]" />
 
 
         </div>

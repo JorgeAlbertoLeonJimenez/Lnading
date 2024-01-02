@@ -16,7 +16,7 @@ export default function CardsNews({inv}) {
       </div>
       <div className="flex justify-around">
         <p>2 Minutos Ago</p>
-        <BtnPrimary inf="Read Now -->" />
+        <BtnPrimary inf="Read Now ->" />
       </div>
     </div>
   );

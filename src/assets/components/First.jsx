@@ -14,7 +14,7 @@ export default function First() {
           with Brainwave, the open AI chat app.
         </p>
         <div className="mt-10  items-center md:items-start flex flex-col lg:flex-row gap-5">
-          <BtnPrimary inf="Get Started Fee -->" />
+          <BtnPrimary inf="Get Started Fee ->" />
           <BtnPrimary
             inf="Explore Future"
             sty="sm:px-[30px] sm:bg-black sm:border sm:text-primary sm:border-primary "
