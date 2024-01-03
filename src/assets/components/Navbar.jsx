@@ -3,7 +3,7 @@ import BtnPrimary from "./BtnPrimary";
 import logo from "../icons/logos/MUAI.png";
 
 export default function Navbar() {
-  const [btnActivation, setBtnActivation] = useState(true);
+  const [btnActivation, setBtnActivation] = useState(false);
 
   const Menu = () => {
     setBtnActivation(!btnActivation);
