@@ -39,7 +39,7 @@ function App() {
         <div className=" lg:flex  w-[350px] md:h-[812px] lg:h-[432px] md:w-[730px] lg:w-[1000px] ">
           <div className="w-[350px] h-[365px] md:w-[730px] md:h-[365px] lg:w-[325px] lg:h-[432px] mr-10 rounded-2xl bg-hero-pattern bg-center"></div>
           <div className=" flex flex-col justify-between">
-            <h3 className="text-[28px] text-center md:text-left my-[40px] md:text-[48px] font-bold">
+            <h3 className="text-[28px] text-center md:text-left my-[40px] md:my-[0px] md:text-[48px] font-bold">
               Delig user experience
             </h3>
             <Text2 icon={icon1} title="Premium Acces" description="Enable both crypto and fiat payments on your self-hosted checkout page."/>
@@ -53,7 +53,7 @@ function App() {
         <div className=" lg:flex  w-[350px] md:h-[812px] lg:h-[432px] md:w-[730px] lg:w-[1000px] flex-row-reverse">
           <div className="w-[350px] h-[365px] md:w-[730px] md:h-[365px] lg:w-[325px] lg:h-[432px] mr-10 rounded-2xl bg-second-pattern bg-center"></div>
           <div className=" flex flex-col justify-between">
-            <h3 className="text-[28px] text-center md:text-left my-[40px] md:text-[48px] font-bold">
+            <h3 className="text-[28px] text-center md:text-left my-[40px] md:my-[0px] md:text-[48px] font-bold">
               Delig user experience
             </h3>
             <Text2 icon={icon1} title="Premium Acces" description="Enable both crypto and fiat payments on your self-hosted checkout page."/>

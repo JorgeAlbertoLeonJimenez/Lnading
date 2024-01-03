@@ -17,7 +17,7 @@ export default function First() {
           <BtnPrimary inf="Get Started Fee ->" />
           <BtnPrimary
             inf="Explore Future"
-            sty="sm:px-[30px] sm:bg-black sm:border sm:text-primary sm:border-primary "
+            sty="sm:px-[30px] sm:bg-black  sm:border sm:text-primary sm:border-primary "
           />
         </div>
       </div>
