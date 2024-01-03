@@ -21,7 +21,7 @@ function App() {
         <Navbar />
         <First />
       </main>
-      <section className="flex flex-col justify-center items-center mt-[300px]">
+      <section className="flex flex-col justify-center items-center">
         <Titl />
         <div className="flex flex-wrap justify-center lg:w-[960px] gap-2.5">
           <Card log={log1} title="Create command"description="Enables users to locate solutions to their inquiries without browsing numerous resources."/>
